@@ -2,7 +2,7 @@
 
 ### You only have to do this once!
 
-In the terminal:
+Go to your command line:
 
 #### Step 1
 `brew install python3`
@@ -46,4 +46,31 @@ After you have it, open it up in Atom or whatever your preferred text editor is:
   <dd>source /usr/local/bin/virtualenvwrapper.sh</dd>
 </dl>
 
-#### Step 7
+#### Step 7 
+Back in the terminal:
+
+`source ~/.bash_profile`
+
+#### Step 8
+
+Great job you have your environment! Now install Django and start your project:
+
+`mkdir django-dev`
+
+`cd django-dev`
+
+`mkvirtualenv -a . django-env`
+Here you are creating a new virtual environment and naming it `django-env`. 
+more on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html).
+
+#### Step 9
+
+Here you can install Django! using regular `pip` command here is recommended:
+
+`pip install django`
+
+#### Step 10
+Congrats you have your Python Environment set up!
+
+Start using new environment with the [Django tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial01/).
+

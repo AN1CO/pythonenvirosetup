@@ -1,4 +1,4 @@
-# Set up Environment for Python on Mac
+# Set up Environment for Python/Django on Mac
 
 ### You only have to do this once!
 
@@ -64,7 +64,7 @@ more on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/la
 
 #### Step 9
 
-Here you can install Django! using regular `pip` command here is recommended:
+You can finally install Django! using regular `pip` command here is recommended:
 
 `pip install django`
 

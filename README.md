@@ -1,15 +1,15 @@
-# Set up Environment for Python on Mac#
+# Set up Environment for Python on Mac
 
-#### You only have to do this once! ####
+### You only have to do this once!
 
 In the terminal:
 
-######Step 1######
+##### Step 1
 `brew install python3`
 
-this installs a new clean copy of Python 3 so it doesn't interfere with any Python that might be used on your system.
+This installs a new clean copy of Python 3 so it doesn't interfere with any Python that might be used on your system.
 
-######Step 2######
+##### Step 2
 `brew install tree`
 
 this helps make file trees look prettier in the terminal. Will help in the future. For more about tree commands click here.

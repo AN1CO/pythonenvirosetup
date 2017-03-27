@@ -37,15 +37,14 @@ After you have it, open it up in Atom or whatever your preferred text editor is:
 `atom ~/.bash_profile`
 
 #### Step 6
-<dl>
-<dt>Copypasta this into your bash_profile and save:</dt>
-  <dd>export VIRTUALENVWRAPPER_PYTHON=$(which python3)</dd>
-  <dd>export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages</dd>
-  <dd>export WORKON_HOME=$HOME/.virtualenvs</dd>
-  <dd>export VIRTUALENVWRAPPER_LOG_DIR="$WORKON_HOME"</dd>
-  <dd>source /usr/local/bin/virtualenvwrapper.sh</dd>
-</dl>
-
+Copypasta this into your bash_profile and save:
+```
+export VIRTUALENVWRAPPER_PYTHON=$(which python3)
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_LOG_DIR="$WORKON_HOME"
+source /usr/local/bin/virtualenvwrapper.sh
+```
 #### Step 7 
 Back in the terminal:
 

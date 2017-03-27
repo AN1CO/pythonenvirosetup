@@ -12,21 +12,21 @@ This installs a new clean copy of Python 3 so it doesn't interfere with any Pyth
 ##### Step 2
 `brew install tree`
 
-this helps make file trees look prettier in the terminal. Will help in the future. For more about tree commands click here.
+Tree commands lists content in directories like a file tree, so it looks prettier and easier to read. This is just an add-on that will make things easier to read, not really necessary. More about tree commands [here](http://www.computerhope.com/unix/tree.htm).
 
-######Step 3######
-Once Python 3 is installed:
-`pip3 install ipython
+##### Step 3
+`pip3 install ipython`
 
-iPython is like Ruby's irb. The terminal repl that ships with Python
+iPython is a command shell, like Ruby's irb. The command shell that ships with Python sucks, so use this.
+`pip3` is the command for Python3, this is important because you don't want to install stuff for the regular Python (you will get errors).
 
-######Step 4######
+##### Step 4
 `pip3 install virtualenv`
 `pip3 install virtualenvwrapper`
 
-This will help create a virtual environment for your Python.
+virtualenv helps you create isolated environments for your Python. Every time you start a new project in Django or any other Python project, you will want to create a new environment for it. More information about commands for it [here](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
-######Step 5######
+##### Step 5
 After installing everything, type this in your terminal:
 
 `atom ~/.bash_profile`

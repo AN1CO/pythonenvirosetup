@@ -22,6 +22,7 @@ iPython is a command shell, like Ruby's irb. The command shell that ships with P
 
 #### Step 4
 `pip3 install virtualenv`
+
 `pip3 install virtualenvwrapper`
 
 virtualenv helps you create isolated environments for your Python. Every time you start a new project in Django or any other Python project, you will want to create a new environment for it. More about virtualenv commands [here](http://docs.python-guide.org/en/latest/dev/virtualenvs/).

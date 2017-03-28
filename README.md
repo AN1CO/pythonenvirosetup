@@ -62,17 +62,17 @@ Create a new virtual environment and name it django-env:
 
 `mkvirtualenv -a . django-env`
 
-###### Note:
-When you create your new virtual environment your terminal will change to show you are currently in that environment:
+> ###### Note:
+> When you create your new virtual environment your terminal will change to show you are currently in that environment:
 (image)
-
-To exit the environment at any time use the command: `deactivate`
-
-To return working on an environment use:
-`workon env-name`
-(image2)
-
-More on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html).
+> 
+> To exit the environment at any time use the command: `deactivate`
+> 
+> To return working on an environment use:
+> `workon env-name`
+> ![workon_example](https://puu.sh/v0IIT/499e2a66fe.png)
+> 
+> More on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html).
 
 #### Step 9
 

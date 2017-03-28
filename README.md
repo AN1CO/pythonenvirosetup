@@ -52,15 +52,27 @@ Back in the terminal:
 
 #### Step 8
 
-Great job you have your environment! Now install Django and start your project:
+Great job you have your environment! Now time to install Django and start your project:
 
 `mkdir django-dev`
 
 `cd django-dev`
 
+Create a new virtual environment and name it django-env:
+
 `mkvirtualenv -a . django-env`
-Here you are creating a new virtual environment and naming it `django-env`. 
-more on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html).
+
+###### Note:
+When you create your new virtual environment your terminal will change to show you are currently in that environment:
+(image)
+
+To exit the environment at any time use the command: `deactivate`
+
+To return working on an environment use:
+`workon env-name`
+(image2)
+
+More on virtualenv commands [here](http://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html).
 
 #### Step 9
 

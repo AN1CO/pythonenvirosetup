@@ -40,7 +40,7 @@ After you have it, open it up in Atom or whatever your preferred text editor is:
 Copypasta this into your bash_profile and save:
 ```
 export VIRTUALENVWRAPPER_PYTHON=$(which python3)
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_LOG_DIR="$WORKON_HOME"
 source /usr/local/bin/virtualenvwrapper.sh
